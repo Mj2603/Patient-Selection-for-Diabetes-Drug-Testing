@@ -2,7 +2,6 @@
 
 ## Diabetes Drug Testing
 
-### Context:
 As a data scientist in a dynamic healthcare startup, you have been tasked with designing a predictive model to identify suitable candidates for Phase III clinical trial testing of a groundbreaking diabetes drug. The drug in question is a highly unique and sensitive treatment, necessitating meticulous administration, screening, and monitoring over a minimum period of 5-7 days in a hospital setting. With access to a patient dataset provided by a client partner, your goal is to build a regression model to predict estimated hospitalization time and subsequently filter the most appropriate patients for this study. The focus shall be on identifying individuals with a high likelihood of hospitalization for the requisite duration while minimizing additional expenses incurred during drug administration and monitoring.
 
 To achieve this objective, you shall develop a comprehensive regression model utilizing a synthetic dataset built off the UCI Diabetes readmission dataset, which has been denormalized for line-level augmentation. The model shall provide expected days of hospitalization time, which can be utilized to make binary predictions on whether to include or exclude a patient from the clinical trial.
